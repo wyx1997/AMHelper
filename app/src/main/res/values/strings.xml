@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">AMTest</string>
+    <string name="main_jindiao">尽调</string>
+    <string name="main_genzong">跟踪</string>
+    <string name="main_luntan">论坛</string>
+    <string name="main_my">我的</string>
+
+    <string-array name="jindiao_array">
+        <item>客户信息</item>
+        <item>生产经营</item>
+        <item>客户财务</item>
+        <item>银企合作</item>
+        <item>项目信息</item>
+        <item>融资用途</item>
+        <item>还款来源</item>
+        <item>风险缓解</item>
+    </string-array>
+
+    <string-array name="my_array">
+        <item>我的客户</item>
+        <item>消息</item>
+        <item>分</item>
+        <item>我的尽调清单</item>
+        <item>我的尽调进度</item>
+        <item>分</item>
+        <item>我的发布</item>
+        <item>推荐给好友</item>
+        <item>分</item>
+        <item>帮助和反馈</item>
+    </string-array>
+    
+    <string name="my_header_view_title">闫淼（张青团队）</string>
+    
+    <string-array name="genzong_array">
+        <item>客户新闻</item>
+        <item>项目进展</item>
+        <item>分</item>
+        <item>上下游企业新闻</item>
+        <item>财务状况</item>
+        <item>分</item>
+    </string-array>
+
+    <string name="search">搜索</string>
+    <string name="info_genzong">信息跟踪</string>
+
+    <string name="luntan_tab_dongtai">动态</string>
+    <string name="luntan_tab_heimingdan">黑名单</string>
+    <string name="luntan_tab_guanzhu">关注</string>
+    
+    <string name="luntan_dongtai_like">点赞·</string>
+    <string name="luntan_dongtai_comment">评论</string>
+
+    <string name="message_permission_always_failed">应用的某些功能需要您手动给予以下权限:\n\n%1$s</string>
+    <string name="title_dialog">提示</string>
+    <string name="not_setting">暂不给予</string>
+    <string name="setting">去设置</string>
+
+    <string name="permission_camera">拍照和摄像</string>
+    <string name="permission_storage">获取图片、媒体文件</string>
+
+    <string-array name="jindiao_list">
+        <item>公司贷款申请书</item>
+        <item>营业执照</item>
+        <item>组织机构代码</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+    </string-array>
+
+    <string name="jindiao_list_title">我的尽调清单</string>
+</resources>

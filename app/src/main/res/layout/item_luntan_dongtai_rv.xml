@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/luntan_dongtai_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="7dp"
+        android:text="nihao"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/luntan_dongtai_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:minLines="1"
+        android:textSize="12sp"
+        android:textColor="@color/main_bottom_navi_icon_unselected"
+        android:text="nihaoa"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/luntan_dongtai_title"/>
+
+    <TextView
+        android:id="@+id/luntan_dongtai_like_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/luntan_like_and_comment"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:text="1.7k"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/luntan_dongtai_content" />
+
+    <TextView
+        android:id="@+id/luntan_dongtai_like_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/luntan_like_and_comment"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="@string/luntan_dongtai_like"
+        app:layout_constraintLeft_toRightOf="@id/luntan_dongtai_like_number"
+        app:layout_constraintBaseline_toBaselineOf="@id/luntan_dongtai_like_number"/>
+
+    <TextView
+        android:id="@+id/luntan_dongtai_comment_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/luntan_like_and_comment"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:text="322"
+        app:layout_constraintLeft_toRightOf="@id/luntan_dongtai_like_string"
+        app:layout_constraintBaseline_toBaselineOf="@id/luntan_dongtai_like_number"/>
+
+    <TextView
+        android:id="@+id/luntan_dongtai_comment_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/luntan_like_and_comment"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="@string/luntan_dongtai_comment"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@id/luntan_dongtai_comment_number"
+        app:layout_constraintBaseline_toBaselineOf="@id/luntan_dongtai_like_number" />
+
+</android.support.constraint.ConstraintLayout>
